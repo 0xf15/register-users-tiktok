@@ -56,7 +56,7 @@ class Auto():
             httpClient.setopt(pycurl.PROXYTYPE, 1)
 
             httpClient.setopt(pycurl.HTTPHEADER, [
-                # f"Cookie: ",
+               
                 'Content-Type: application/x-www-form-urlencoded',
                 "User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36",
                 "Referer: https://www.tiktok.com/"
@@ -80,10 +80,10 @@ class Auto():
                 return req
             elif ("The name already exists" in req):
 
-                #self.att += 1
+               
                 return False
             else:
-                # print(req)
+               
                 self.errors += 1
                 return False
         except:
@@ -141,8 +141,7 @@ def calc():
             tik.secend = tik.att
             time.sleep(1)
             tik.rs = tik.att - tik.secend
-            # print("{}{}[{}{}{}] Attempts: {:,} | | R/S: {:,}".format(Style.BRIGHT,
-            #                                                                    Fore.WHITE, Fore.MAGENTA, s, Fore.WHITE, tik.att, tik.rs), end="\r")
+            
             print("\r{}{}{}kali@F15dv{}:{}~{}$ Done: {}{:,}{} || R/S: {}{:,}{}".format(Style.BRIGHT, Fore.WHITE,
                                                                   Fore.GREEN, Fore.WHITE, Fore.BLUE, Fore.WHITE,Fore.MAGENTA, tik.att,Fore.WHITE,Fore.MAGENTA,tik.rs,Fore.WHITE), end="\r")
 
