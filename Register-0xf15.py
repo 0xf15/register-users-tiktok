@@ -21,7 +21,6 @@ file_proxy = []
 for i in open('proxy.txt').read().splitlines():
     if (":" in i):
         file_proxy.append(i)
-sc = ["|", "/", "-", "\\", "|", "/", "-", "\\"]
 init()
 
 
@@ -136,7 +135,7 @@ tik = Auto()
 
 def calc():
     while True:
-        for s in sc:
+
 
             tik.secend = tik.att
             time.sleep(1)
