@@ -1,3 +1,6 @@
+( ما اسامح اي احد يعدل الحقوق او يبيعها )
+
+
 # register-users-tiktok
 
 no sell!!!
@@ -27,3 +30,5 @@ pip install opencv-python
 
 
 " Tele @f15dv "
+
+
