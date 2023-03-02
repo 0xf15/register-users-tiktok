@@ -1,9 +1,11 @@
-                                                     ( ما اسامح اي احد يعدل الحقوق او يبيعها )
+
+                                                                     ( ما اسامح اي احد يعدل الحقوق او يبيعها )
+                                                                    ( not for sell ) 
 
 
 # register-users-tiktok
 
-no sell!!!
+
 
 install all:
 
